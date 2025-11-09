@@ -96,6 +96,7 @@
             const content = `${html}\n${css}\n${js}`;
             preview.srcdoc = content;
         }
+        updatePreview()
         htmlCode.addEventListener('input', updatePreview);
         cssCode.addEventListener('input', updatePreview);
         jsCode.addEventListener('input', updatePreview);
