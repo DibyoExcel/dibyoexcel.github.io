@@ -300,7 +300,7 @@ iframe#preview{
     --secondary-accent-color: #0f0;
     --third-accent-color: #0ff;
     --header-height: 50px;
-    --background-color: #111;
+    --background-color: #000;
     --button-color: #222;
     --button-color-hover: #333;
     --font-use: 'Mojangles', 'Arial';
