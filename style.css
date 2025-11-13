@@ -130,10 +130,6 @@ div.sidebar a.dialogue_link:hover, div.dialogue a.dialogue_link:hover{
     border: 1px solid var(--secondary-accent-color);
 }
 
-div.sidebar a.dialogue_link{
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 div.dialogue a.button{
     padding: 10px;
@@ -243,6 +239,8 @@ div.sidebar{
     color: var(--accent-color);
     gap: 10px;
     overflow-wrap: break-word;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 div.sidebar.open{
