@@ -25,6 +25,7 @@ header.header{
     color: var(--accent-color);
     font-family: var(--font-use);
     word-break: break-word;
+    box-sizing: border-box;
 }
 
 .ratio{
@@ -314,4 +315,24 @@ iframe#preview{
 @font-face {
     font-family: 'Mojangles';
     src: url(asset/Mojangles.ttf);
+}
+
+@media (max-width: 275px) {
+    header.header h3{
+        display: none;
+    }
+    header.header{
+        justify-content: center;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root{
+        --background-color: #fff;
+        --accent-color: #808;
+        --secondary-accent-color: #080;
+        --third-accent-color: #088;
+        --button-color: #999;
+        --button-color-hover: #888;
+    }
 }
