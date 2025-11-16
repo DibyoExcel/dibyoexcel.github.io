@@ -25,7 +25,6 @@ header.header{
     color: var(--accent-color);
     font-family: var(--font-use);
     word-break: break-word;
-    box-sizing: border-box;
 }
 
 .ratio{
@@ -62,7 +61,7 @@ div.dialogue{
 
 div.dialogue div.dialogue_title{
     height: auto;
-    min-height: 40px;
+    min-height: 65px;
     margin: 0;
     color: var(--accent-color);
     border-bottom: 2px solid var(--accent-color);
@@ -241,7 +240,6 @@ div.sidebar{
     gap: 10px;
     overflow-wrap: break-word;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 div.sidebar.open{
@@ -312,11 +310,6 @@ iframe#preview{
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'Mojangles';
-    src: url(asset/Mojangles.ttf);
-}
-
 @media (max-width: 300px) {
     header.header h3{
         display: none;
@@ -335,4 +328,13 @@ iframe#preview{
         --button-color: #999;
         --button-color-hover: #888;
     }
+}
+
+@font-face {
+    font-family: 'Mojangles';
+    src: url(asset/Mojangles.ttf);
+}
+
+* {
+    box-sizing: border-box;
 }
