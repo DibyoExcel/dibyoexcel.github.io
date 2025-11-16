@@ -317,7 +317,7 @@ iframe#preview{
     src: url(asset/Mojangles.ttf);
 }
 
-@media (max-width: 275px) {
+@media (max-width: 300px) {
     header.header h3{
         display: none;
     }
