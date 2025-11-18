@@ -310,7 +310,7 @@ iframe#preview{
     scroll-behavior: smooth;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
     div.dialogue{
         width: 95%;
     }
@@ -324,7 +324,7 @@ iframe#preview{
         left: 0;
         top: -250px;
         height: 250px;
-        max-height: 50%;
+        max-height: calc(50% - var(--header-height));
         width: 100%;
         max-width: 100%;
         border-bottom-right-radius: 15px;
