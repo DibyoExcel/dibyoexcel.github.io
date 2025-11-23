@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;
 }
 
-body, html{
+*{
     font-family: var(--font-use);
 }
 
